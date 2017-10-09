@@ -1,0 +1,16 @@
+{
+  "name": "font-awesome-sass-indented",
+  "version": "4.7.0",
+  "description": "Font Awesome's SASS files with indented syntax.",
+  "main": "index.js",
+  "scripts": {
+    "convert": "npx sass-convert -F scss -T sass -R node_modules/font-awesome/scss ./sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "sass-convert": "^0.5.2",
+    "font-awesome": "4.x.x"
+  }
+}
